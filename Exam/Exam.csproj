@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Exam.Organizations\Exam.Organizations.csproj" />
+    <ProjectReference Include="..\Exam.Employees\Exam.Employees.csproj" />
+    <ProjectReference Include="..\Exam.Device\Exam.Devices.csproj" />
+    <ProjectReference Include="..\Exam.Departments\Exam.Departments.csproj" />
+    <ProjectReference Include="..\Exam.DAL\Exam.DAL.csproj" />
+  </ItemGroup>
+</Project>
